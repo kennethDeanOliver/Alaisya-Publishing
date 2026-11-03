@@ -76,14 +76,14 @@
             <nav class="mx-auto flex max-w-7xl flex-wrap gap-x-5 gap-y-3 text-xs font-medium">
 
                 <a href="{{ url('/') }}" class="text-[#244536]">Beranda</a>
-                <a href="{{ url('/katalog-buku') }}" class="text-stone-700">Katalog Buku</a>
+                <a href="{{ url('/catalog') }}" class="text-stone-700">Katalog Buku</a>
 
                 <span class="text-stone-400" aria-disabled="true">Layanan</span>
                 <span class="text-stone-400" aria-disabled="true">Terbitkan Buku</span>
                 <span class="text-stone-400" aria-disabled="true">Penulis</span>
                 <span class="text-stone-400" aria-disabled="true">Artikel</span>
 
-                <a href="{{ url('/tentang-kami') }}" class="text-stone-700">Tentang Kami</a>
+                <a href="{{ url('/about') }}" class="text-stone-700">Tentang Kami</a>
 
             </nav>
         </div>

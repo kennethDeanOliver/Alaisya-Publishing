@@ -20,7 +20,7 @@
                         Terbitkan Buku Anda <span aria-hidden="true">→</span>
                     </a>
                 </div>
-                <a href="{{ url('/katalog-buku') }}" class="rounded-lg border border-stone-400 px-6 py-3.5 text-sm font-semibold text-stone-800 transition hover:bg-white">
+                <a href="{{ url('/catalog') }}" class="rounded-lg border border-stone-400 px-6 py-3.5 text-sm font-semibold text-stone-800 transition hover:bg-white">
                     Jelajahi Katalog
                 </a>
             </div>
@@ -52,7 +52,7 @@
             <h2 class="mt-2 font-serif text-3xl font-semibold text-stone-900">Buku Pilihan Kami</h2>
             <p class="mt-2 text-sm text-stone-500">Karya-karya terbaru dan rekomendasi dari editor kami.</p>
         </div>
-        <a href="{{ url('/katalog-buku') }}" class="text-sm font-semibold text-[#244536] hover:underline">Lihat Semua Buku →</a>
+        <a href="{{ url('/catalog') }}" class="text-sm font-semibold text-[#244536] hover:underline">Lihat Semua Buku →</a>
     </div>
 
     <div class="grid gap-8 lg:grid-cols-[minmax(0,3fr)_minmax(230px,1fr)]">

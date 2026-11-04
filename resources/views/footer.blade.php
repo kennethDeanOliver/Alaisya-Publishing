@@ -35,8 +35,8 @@
 
                 <ul class="space-y-3 text-sm text-white/65">
                     <li><a href="{{ url('/') }}" class="hover:text-white transition">Beranda</a></li>
-                    <li><a href="{{ url('/katalog-buku') }}" class="hover:text-white transition">Katalog Buku</a></li>
-                    <li><a href="{{ url('/tentang-kami') }}" class="hover:text-white transition">Tentang Kami</a></li>
+                    <li><a href="{{ url('/catalog') }}" class="hover:text-white transition">Katalog Buku</a></li>
+                    <li><a href="{{ url('/about') }}" class="hover:text-white transition">Tentang Kami</a></li>
                 </ul>
             </div>
 
@@ -70,7 +70,7 @@
                     </li>
 
                     <li>
-                        <a href="{{ url('/tentang-kami') }}"
+                        <a href="{{ url('/about') }}"
                         class="hover:text-white transition">
                             Tentang Alaisya Publishing
                         </a>

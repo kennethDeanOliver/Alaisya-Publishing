@@ -10,7 +10,7 @@
 
     @include('header')
 
-    <main class="flex-grow">
+    <main class="grow">
         @yield('content')
     </main>
 

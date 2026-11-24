@@ -9,9 +9,7 @@ class BookController extends Controller
 {
     public function bookCatalog() {
         $books = Book::all();
-        return view('book.catalog',
-            ['books' => $books]
-        );
+        return view('book.catalog', compact('books'));
     }
 
     public function bookPublishing() {

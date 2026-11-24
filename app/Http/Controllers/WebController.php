@@ -9,13 +9,19 @@ class WebController extends Controller
 {
     public function home() {
         $books = Book::all();
-        return view('home',
-            ['books' => $books]
-        );
+        return view('home', compact('books'));
     }
 
     public function services() {
         return view('services');
+    }
+
+    public function authors() {
+        return view('authors');
+    }
+
+    public function articles() {
+        return view('articles');
     }
 
     public function about() {

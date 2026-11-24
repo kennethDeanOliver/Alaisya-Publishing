@@ -46,11 +46,11 @@
                     Penerbitan
                 </h3>
 
-                <ul class="space-y-3 text-sm text-white/40">
+                <ul class="space-y-3 text-sm text-white/65">
                     <li>Layanan Penerbitan</li>
                     <li>Terbitkan Buku</li>
-                    <li>Informasi Penulis</li>
-                    <li>Artikel</li>
+                    <li><a href="{{ url('/authors') }}" class="hover:text-white transition">Penulis</a></li>
+                    <li><a href="{{ url('/articles') }}" class="hover:text-white transition">Artikel</a></li>
                 </ul>
             </div>
 

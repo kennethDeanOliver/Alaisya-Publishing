@@ -18,15 +18,6 @@ class WebController extends Controller
         return view('services');
     }
 
-    public function authors() {
-        $authors = Author::all();
-        return view('authors', compact('authors'));
-    }
-
-    public function articles() {
-        $articles = Article::all();
-        return view('articles', compact('articles'));
-    }
 
     public function about() {
         return view('about');

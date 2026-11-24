@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\Book;
+use App\Models\Article;
+use App\Models\Author;
 use Illuminate\Http\Request;
 
 class WebController extends Controller
@@ -17,11 +19,13 @@ class WebController extends Controller
     }
 
     public function authors() {
-        return view('authors');
+        $authors = Author::all();
+        return view('authors', compact('authors'));
     }
 
     public function articles() {
-        return view('articles');
+        $articles = Article::all();
+        return view('articles', compact('articles'));
     }
 
     public function about() {
